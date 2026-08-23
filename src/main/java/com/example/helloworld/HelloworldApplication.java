@@ -17,6 +17,12 @@ public class HelloworldApplication {
     public String sayHello() {
         return "Hello World";
     }
+
+    @GetMapping("/bye")
+    public String sayBye() {
+        return "bye bye!!!";
+    }
+
 }
 
 
