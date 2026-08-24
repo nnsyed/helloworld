@@ -23,6 +23,11 @@ public class HelloworldApplication {
         return "bye bye!!!";
     }
 
+    @GetMapping("/bestcity")
+    public String bestCity() {
+        return "San Francisco";
+    }
+
 }
 
 
